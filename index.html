@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="messageBox/mb.css">
+    <link rel="stylesheet" href="notification/nt.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Notification</title>
+</head>
+
+<body>
+
+    <div id="message_box">
+        <div id="inner_message_box">
+            <button id="hide_message_box">&times;</button>
+            <div class="message">Lorem Ipsum est un texte d'espace réservé couramment utilisé dans les industries graphique.</div>
+            <div class="buttons">
+                <button id="ok" class="btn">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="notification">
+        <span>Lorem Ipsum est un texte d'espace réservé couramment utilisé dans les industries graphique.</span>
+        <button id="hide_notification">&times;</button>
+    </div>
+
+    <div style="text-align: center; padding: 20px;">
+        <button class="btn" id="show_notification">Show notification</button>
+        <button class="btn" id="show_message_box">Show message-box</button>
+    </div>
+
+    <script src="messageBox/mb.js"></script>
+    <script src="notification/nt.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

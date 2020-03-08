@@ -1,0 +1,34 @@
+/* Notification */
+
+#notification {
+    position: fixed;
+    bottom: 10px;
+    /* left: 10px; */
+    left: -280px;
+    padding: 18px 10px 10px 10px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    width: 250px;
+    background: rgb(226, 255, 214);
+    border: 1px solid rgb(173, 190, 163);
+    color: rgb(100, 100, 100);
+    overflow: auto;
+    z-index: 1;
+}
+
+#notification button {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    clear: both;
+    outline: 0;
+    position: absolute;
+    font-size: 16px;
+    top: 1px;
+    right: 1px;
+    margin: 0px 5px;
+}
+
+#notification button:hover {
+    color: rgb(145, 145, 145);
+}
